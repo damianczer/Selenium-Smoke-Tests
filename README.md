@@ -1,30 +1,25 @@
-# Selenium Smoke Tests - Robot Framework & Web Driver
+<div align="center">
+  
+# Selenium Smoke Tests
 
-![GitHub stars](https://img.shields.io/github/stars/damianczer/automatic-tests?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/damianczer/automatic-tests?style=social)
-![GitHub issues](https://img.shields.io/github/issues/damianczer/automatic-tests?style=flat-square)
+*Production-ready test automation suite with comprehensive web testing scenarios*
 
-> **Production-ready test automation suite with comprehensive web testing scenarios**
+[![GitHub stars](https://img.shields.io/github/stars/damianczer/Selenium-Smoke-Tests?style=for-the-badge&color=gold)](https://github.com/damianczer/Selenium-Smoke-Tests/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/damianczer/Selenium-Smoke-Tests?style=for-the-badge&color=blue)](https://github.com/damianczer/Selenium-Smoke-Tests/watchers)
+[![GitHub issues](https://img.shields.io/github/issues/damianczer/Selenium-Smoke-Tests?style=for-the-badge&color=red)](https://github.com/damianczer/Selenium-Smoke-Tests/issues)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-Automated test project for https://the-internet.herokuapp.com/ using Robot Framework and Selenium WebDriver. This project demonstrates best practices in test automation with a focus on maintainability, scalability, and CI/CD integration.
+| Technology | Purpose | Documentation |
+|------------|---------|---------------|
+| ![Robot Framework](https://img.shields.io/badge/Robot_Framework-000000?style=for-the-badge&logo=robotframework&logoColor=white) | Test Automation Framework | [User Guide](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html) |
+| ![SeleniumLibrary](https://img.shields.io/badge/SeleniumLibrary-43B02A?style=for-the-badge&logo=selenium&logoColor=white) | Browser Automation Library | [Documentation](https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html) |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | Programming Language | [Documentation](https://docs.python.org/3/) |
+| ![The Internet](https://img.shields.io/badge/Test_Application-4A4A4A?style=for-the-badge&logo=googlechrome&logoColor=white) | Demo Web App for Testing | [The Internet](https://the-internet.herokuapp.com/) |
+| ![Robot Syntax](https://img.shields.io/badge/Robot_Syntax-000000?style=for-the-badge&logo=robotframework&logoColor=white) | Test Data & Keyword Syntax | [Syntax Guide](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#test-data-syntax) |
 
-## 🎯 What is this project?
+This project demonstrates best practices in test automation with a focus on maintainability, scalability, and CI/CD integration.
 
-This is a **complete test automation framework** that provides:
-- ✅ **Ready-to-use test suites** for common web testing scenarios
-- ✅ **Cross-browser testing** (Chrome, Firefox, Headless mode)
-- ✅ **CI/CD integration** with GitHub Actions
-- ✅ **Comprehensive reporting** with HTML reports and logs
-- ✅ **Modular architecture** with reusable keywords and page objects
 
-## 🛠️ Technologies Used
-
-- Robot Framework - [User Guide](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html)
-- Selenium Library - [Documentation](https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html)
-- The Internet [Test Application](https://the-internet.herokuapp.com/)
-- Robot - [Syntax](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#test-data-syntax)
-
-## 🚀 What's included?
 
 ### Test Coverage
 Currently implemented test suites covering **93 test scenarios**:
@@ -44,15 +39,7 @@ Currently implemented test suites covering **93 test scenarios**:
 | **Hovers** | 8 scenarios | Mouse hover interactions, tooltip display, UI feedback |
 | **Inputs** | 8 scenarios | Number input validation, keyboard interactions, form fields |
 
-### Key Features
-- 🔍 **Smoke tests** for critical functionality validation
-- 🌐 **Cross-browser compatibility** testing
-- 📊 **Performance testing** scenarios
-- 🔐 **Security testing** with authentication flows
-- 📱 **Headless mode** for CI/CD environments
-- 🎯 **Tag-based test execution** for targeted testing
-
-## 🧑🏻‍💻 Example
+Execution:
 
 <img width="692" height="312" alt="image" src="https://github.com/user-attachments/assets/3586fcf9-ad17-46ca-810c-7efd01138b34" />
 
@@ -60,29 +47,9 @@ Raport:
 
 <img width="913" height="890" alt="image" src="https://github.com/user-attachments/assets/af25dfc8-8fcf-4112-afc3-c300d6613a3d" />
 
+</div>
 
-## 📈 Test Results Dashboard
-
-```bash
-Total Tests: 93     ✅ Passing: 93     ❌ Failing: 0     Success Rate: 100%
-```
-
-**Latest Test Run Results:**
-- **Smoke Tests**: 16/16 passing ✅
-- **A/B Testing**: 5/5 passing ✅
-- **Add/Remove Elements**: 8/8 passing ✅
-- **Basic Auth**: 8/8 passing ✅
-- **Checkboxes**: 8/8 passing ✅
-- **Context Menu**: 8/8 passing ✅
-- **Dropdown**: 8/8 passing ✅
-- **Drag and Drop**: 8/8 passing ✅
-- **File Upload**: 8/8 passing ✅
-- **JavaScript Alerts**: 8/8 passing ✅
-- **Dynamic Loading**: 8/8 passing ✅
-- **Hovers**: 8/8 passing ✅
-- **Inputs**: 8/8 passing ✅
-
-## 🎬 Quick Demo
+## Quick Demo
 
 ```bash
 # Clone and run in 3 commands
@@ -93,15 +60,6 @@ pip install -r requirements.txt
 # Run smoke tests (takes ~2 minutes)
 run_tests.bat smoke
 ```
-
-## 💡 Why use this project?
-
-- **Learning**: Perfect for learning Robot Framework and Selenium best practices
-- **Template**: Use as a starting point for your own test automation projects
-- **Examples**: Real-world examples of common testing scenarios
-- **Production-ready**: Includes CI/CD, reporting, and error handling
-- **Maintainable**: Clean architecture with separated concerns
-
 ## Prerequisites
 
 - Python 3.8 or higher
@@ -111,13 +69,7 @@ run_tests.bat smoke
 
 ## Installation
 
-### Step 1: Clone the repository
-```bash
-git clone <repository-url>
-cd Automatic-Tests
-```
-
-### Step 2: Create virtual environment (recommended)
+### Step 1: Create virtual environment (recommended)
 ```bash
 # Create virtual environment
 python -m venv venv
@@ -129,53 +81,9 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### Step 3: Install dependencies
+### Step 2: Install dependencies
 ```bash
 pip install -r requirements.txt
-```
-
-## Project Structure
-
-```
-Automatic-Tests/
-├── tests/                 # Test files (.robot)
-│   ├── ab_testing.robot   # A/B Testing functionality tests (5 tests)
-│   ├── add_remove_elements.robot  # Add/Remove Elements tests (8 tests)
-│   ├── basic_auth.robot   # Basic Auth functionality tests (8 tests)
-│   ├── checkboxes.robot   # Checkboxes functionality tests (8 tests)
-│   ├── context_menu.robot # Context Menu functionality tests (8 tests)
-│   ├── dropdown.robot     # Dropdown functionality tests (8 tests)
-│   ├── drag_and_drop.robot # Drag and Drop functionality tests (8 tests)
-│   ├── file_upload.robot  # File Upload functionality tests (8 tests)
-│   ├── javascript_alerts.robot # JavaScript Alerts functionality tests (8 tests)
-│   ├── dynamic_loading.robot # Dynamic Loading functionality tests (8 tests)
-│   ├── hovers.robot       # Hovers functionality tests (8 tests)
-│   ├── inputs.robot       # Inputs functionality tests (8 tests)
-│   └── ...                # Additional test files
-├── keywords/              # Keyword files (reusable functions)
-│   ├── common_keywords.robot     # Common browser operations
-│   ├── homepage_keywords.robot   # Homepage specific operations
-│   ├── ab_testing_keywords.robot # A/B Testing specific operations
-│   ├── add_remove_keywords.robot # Add/Remove Elements operations
-│   ├── basic_auth_keywords.robot # Basic Auth operations
-│   ├── checkboxes_keywords.robot # Checkboxes operations
-│   ├── context_menu_keywords.robot # Context Menu operations
-│   ├── dropdown_keywords.robot   # Dropdown operations
-│   ├── drag_and_drop_keywords.robot # Drag and Drop operations
-│   ├── file_upload_keywords.robot # File Upload operations
-│   ├── javascript_alerts_keywords.robot # JavaScript Alerts operations
-│   ├── dynamic_loading_keywords.robot # Dynamic Loading operations
-│   ├── hovers_keywords.robot     # Hovers operations
-│   ├── inputs_keywords.robot     # Inputs operations
-│   └── ...                # Additional keyword files
-├── resources/             # Resource files (variables, configuration)
-│   └── variables.robot    # Global variables and URLs
-├── results/               # Test results (generated automatically)
-├── .github/workflows/     # CI/CD configuration
-├── requirements.txt       # Python dependencies
-├── robot.yaml            # Robot Framework configuration
-├── run_tests.bat         # Windows batch script for easy test execution
-└── README.md             # This file
 ```
 
 ## Running Tests
@@ -503,51 +411,14 @@ Tests number input fields and keyboard interactions:
 
 **Tags:** `smoke`, `navigation`, `content`, `functionality`, `forms`, `inputs`
 
-## Best Practices
+<div align="center">
 
-1. **Test Organization**: One .robot file per functionality
-2. **Keywords**: Use descriptive English keyword names
-3. **Variables**: Define variables in resources files
-4. **Page Objects**: Use Page Object Model pattern for larger applications
-5. **Waits**: Always use proper waits instead of sleep
-6. **Tags**: Use tags to categorize and filter tests
+### Author: Damian Czerwiński
 
-## Troubleshooting
+</div>
 
-### Common Issues
+<div align="center">
 
-#### "robot" command not found
-Use `python -m robot` instead of just `robot`.
+**Made with ❤️ for the TEST Community**
 
-#### Browser driver issues
-The project uses webdriver-manager to automatically download browser drivers. If you encounter issues:
-1. Ensure you have Chrome or Firefox installed
-2. Check your internet connection
-3. Try running in headless mode
-
-#### Permission errors on Windows
-Run command prompt as Administrator or use PowerShell.
-
-#### Tests failing due to network issues
-Check your internet connection and try running individual tests:
-```bash
-python -m robot -t "TC001*" -d results tests/ab_testing.robot
-```
-
-### Debug Mode
-Run individual test cases for debugging:
-```bash
-# Run specific test case
-python -m robot -t "TC001 - Check A/B Testing Link Availability*" -d results tests/ab_testing.robot
-
-# Run with more verbose logging
-python -m robot -L DEBUG -d results tests/ab_testing.robot
-```
-
-## Continuous Integration
-
-The project includes GitHub Actions workflow (`.github/workflows/robot-tests.yml`) that:
-- Runs tests on push to main/develop branches
-- Tests with both Chrome and Firefox
-- Runs daily at 6:00 UTC
-- Uploads test results as artifacts
+</div>
