@@ -53,7 +53,7 @@ Raport:
 
 ```bash
 # Clone and run in 3 commands
-git clone <repository-url>
+git clone <https://github.com/damianczer/Selenium-Smoke-Tests.git>
 cd Automatic-Tests
 pip install -r requirements.txt
 
